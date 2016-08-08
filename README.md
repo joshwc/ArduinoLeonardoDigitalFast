@@ -9,3 +9,6 @@ commands: 	set - set pin to high - use in place of digitalWrite(x,HIGH)
 		dr - digitalRead state of pin - use in place of digitalRead(x)
 
 Commands are followed by the pin number eg. set13, clr13, dr13
+Each write(set, clr) command consumes just 2 clock cycles
+
+
